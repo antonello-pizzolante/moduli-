@@ -1,0 +1,903 @@
+{
+  "users": [
+    {
+      "matricola": "DEMO-001",
+      "email": "mario.rossi.demo@sanitaservice118.example",
+      "nome": "MARIO",
+      "cognome": "ROSSI",
+      "postazione": "Taranto Centro - Postazione 118",
+      "passwordSalt": "d9a13e4b36c7d48163d4c6f5d8f2ce3d",
+      "passwordHash": "65a747179996f766edf326b1a3027b203602e82d5d1724f899717beaf7ab139288650d506e15cd3d2ea914076b58fb3cb3e47b4a2902b3a453a2c82617069b47",
+      "mustChangePassword": false,
+      "createdAt": "2026-09-01T08:00:00.000Z"
+    }
+  ],
+  "userData": {
+    "DEMO-001": {
+      "profile": {
+        "nome": "MARIO",
+        "cognome": "ROSSI",
+        "matricola": "DEMO-001",
+        "postazione": "Taranto Centro - Postazione 118",
+        "qualifica": "Autista Soccorritore 118",
+        "telefono": "0000000000",
+        "emailPec": "mario.rossi.demo@pec.example",
+        "coordinatoreNome": "Coordinatore Demo",
+        "firmaSalvata": {
+          "dataUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAYAAABytg0kAAAAFElEQVR42mNk+M9QzwAEjDAGACUFAgC/eA7LAAAAABJRU5ErkJggg==",
+          "url": "/api/user/signature/image?v=1790585434279&hash=2cfc11fa65ef",
+          "nomeFirmatario": "ROSSI MARIO",
+          "dataFirma": "28/09/2026 ore 08:50",
+          "tipo": "ORIGINALE",
+          "certificatoId": "CERT-SET118-MUL0C3HI-D6FB",
+          "autorizzata": true,
+          "originalWidth": 200,
+          "originalHeight": 100,
+          "sha256": "2cfc11fa65effed044baf9bc67a48b6a01673693439506fa8abe18a529c87cbe",
+          "fileName": "firma_DEMO-001_2cfc11fa65ef.png",
+          "sizeKb": 0,
+          "updatedAt": "2026-09-28T08:50:34.215Z"
+        }
+      },
+      "pecSettings": {
+        "pecUfficioPersonale": "ufficio.personale.demo@sanitaservice118.example",
+        "pecCopiaConoscenza": "coordinamento.demo@sanitaservice118.example",
+        "invioAutomaticoGiorno1": false,
+        "oraInvioGiorno1": "10:00",
+        "promemoriaNotifica": true,
+        "smtpHost": "smtps.pec.aruba.it",
+        "smtpPort": 465,
+        "smtpSsl": true,
+        "smtpUser": "operatore.test@pec.it",
+        "simulazioneTestMode": true,
+        "accountMode": "INDIVIDUALE",
+        "encryptedSmtpPass": {
+          "iv": "a0ec6a2ea9663f9ff42f34ef",
+          "tag": "689ae04be6f9337981b1cdd07f96df04",
+          "data": "a14e83b68afe37050ac034a6cf63ba7d0e4d5eb8d99ca619daa8"
+        }
+      },
+      "sheets": [
+        {
+          "id": "2026-09",
+          "anno": 2026,
+          "mese": 9,
+          "nomeMese": "SETTEMBRE 2026",
+          "dipendente": {
+            "nome": "MARIO",
+            "cognome": "ROSSI",
+            "matricola": "DEMO-001",
+            "postazione": "Taranto Centro - Postazione 118",
+            "qualifica": "Autista Soccorritore 118",
+            "telefono": "0000000000",
+            "emailPec": "mario.rossi.demo@pec.example",
+            "coordinatoreNome": "Coordinatore Demo"
+          },
+          "entries": [
+            {
+              "id": "demo-entry-1",
+              "giorno": "04/09/2026",
+              "turnoType": "MATTINA",
+              "orarioOrdinario": "07:00 - 13:00",
+              "orarioStraordinario": "13:00 - 15:30",
+              "motivo": "Intervento urgente soccorso 118 con rientro prolungato (Simulazione Demo)",
+              "tipoDestinazione": "MONTE_ORE",
+              "minutiEffettuati": 150,
+              "totaleOreMonteOre": "2h 30m",
+              "totaleOreStraordinario": "0h 00m",
+              "oreDecimali": 2.5,
+              "firmaCoordinatore": "Coordinatore Demo",
+              "dataCreazione": "2026-09-04T15:30:00.000Z"
+            },
+            {
+              "id": "entry-new-118",
+              "giorno": "26/09/2026",
+              "turnoType": "POMERIGGIO",
+              "orarioOrdinario": "14:00 - 20:00",
+              "orarioStraordinario": "20:00 - 22:30",
+              "motivo": "Soccorso 118 prolungamento emergenza",
+              "tipoDestinazione": "STRAORDINARIO",
+              "minutiEffettuati": 150,
+              "totaleOreStraordinario": "2h 30m",
+              "oreDecimali": 2.5
+            },
+            {
+              "id": "entry-test-verify-persistence",
+              "giorno": "26/09/2026",
+              "turnoType": "NOTTE",
+              "orarioOrdinario": "20:00 - 08:00",
+              "orarioStraordinario": "08:00 - 10:00",
+              "motivo": "Soccorso codice rosso prolungato",
+              "tipoDestinazione": "STRAORDINARIO",
+              "minutiEffettuati": 120,
+              "totaleOreStraordinario": "2h 00m",
+              "oreDecimali": 2,
+              "dataCreazione": "2026-09-26T18:00:00.000Z"
+            }
+          ],
+          "totaleMinutiMonteOre": 150,
+          "totaleMinutiStraordinario": 270,
+          "totaleMinutiComplessivo": 420,
+          "totaleOreMonteOreFormatted": "2h 30m",
+          "totaleOreStraordinarioFormatted": "4h 30m",
+          "totaleOreComplessivoFormatted": "7h 00m",
+          "status": "PRONTO",
+          "createdAt": "2026-09-01T08:00:00.000Z",
+          "updatedAt": "2026-09-26T18:09:52.408Z",
+          "pecInvioInfo": {
+            "dataInvio": "2026-09-25T19:10:51.468Z",
+            "destinatario": "ufficio.personale.demo@sanitaservice118.example",
+            "mittente": "mario.rossi.demo@pec.example",
+            "idMessaggio": "SIM-PEC-1790363451468-26319@sanitaservice118.local",
+            "ricevutaAccettazione": false,
+            "ricevutaConsegna": false
+          },
+          "version": 6,
+          "deletedAt": null
+        },
+        {
+          "id": "sheet-test-demo-2026-10",
+          "anno": 2026,
+          "mese": 10,
+          "nomeMese": "Ottobre 2026",
+          "entries": [
+            {
+              "id": "1",
+              "data": "2026-10-01",
+              "minutiEffettuati": 120,
+              "tipoDestinazione": "STRAORDINARIO"
+            }
+          ],
+          "version": 1,
+          "totaleMinutiMonteOre": 0,
+          "totaleMinutiStraordinario": 120,
+          "totaleMinutiComplessivo": 120,
+          "totaleOreMonteOreFormatted": "0h 00m",
+          "totaleOreStraordinarioFormatted": "2h 00m",
+          "totaleOreComplessivoFormatted": "2h 00m",
+          "createdAt": "2026-09-25T19:24:40.905Z",
+          "updatedAt": "2026-09-25T19:24:40.907Z"
+        },
+        {
+          "id": "sheet-test-concurrency-101",
+          "anno": 2026,
+          "mese": 10,
+          "nomeMese": "Ottobre 2026",
+          "entries": [
+            {
+              "id": "1",
+              "data": "2026-10-01",
+              "minutiEffettuati": 90,
+              "tipoDestinazione": "STRAORDINARIO"
+            }
+          ],
+          "version": 2,
+          "totaleMinutiMonteOre": 0,
+          "totaleMinutiStraordinario": 90,
+          "totaleMinutiComplessivo": 90,
+          "totaleOreMonteOreFormatted": "0h 00m",
+          "totaleOreStraordinarioFormatted": "1h 30m",
+          "totaleOreComplessivoFormatted": "1h 30m",
+          "updatedAt": "2026-09-25T19:25:23.114Z",
+          "deletedAt": null,
+          "createdAt": "2026-09-25T19:25:23.111Z"
+        },
+        {
+          "id": "sheet-test-uniq-1790364379336",
+          "anno": 2026,
+          "mese": 10,
+          "nomeMese": "Ottobre 2026",
+          "entries": [
+            {
+              "id": "1",
+              "data": "2026-10-01",
+              "minutiEffettuati": 90,
+              "tipoDestinazione": "STRAORDINARIO"
+            }
+          ],
+          "version": 2,
+          "totaleMinutiMonteOre": 0,
+          "totaleMinutiStraordinario": 90,
+          "totaleMinutiComplessivo": 90,
+          "totaleOreMonteOreFormatted": "0h 00m",
+          "totaleOreStraordinarioFormatted": "1h 30m",
+          "totaleOreComplessivoFormatted": "1h 30m",
+          "updatedAt": "2026-09-25T19:26:19.341Z",
+          "deletedAt": null,
+          "createdAt": "2026-09-25T19:26:19.338Z"
+        }
+      ],
+      "pecLogs": [
+        {
+          "id": "log-1790363451468",
+          "sheetId": "2026-09",
+          "tipoDocumento": "PROSPETTO_STRAORDINARI",
+          "titolo": "Prospetto Straordinari SETTEMBRE 2026",
+          "nomeMese": "SETTEMBRE 2026",
+          "destinatario": "ufficio.personale.demo@sanitaservice118.example",
+          "mittente": "mario.rossi.demo@pec.example",
+          "dataInvio": "2026-09-25T19:10:51.468Z",
+          "esito": "SIMULATO",
+          "dettagli": "Ambiente Dimostrativo: invio PEC reale bloccato per sicurezza. Documento generato e archiviato in simulazione.",
+          "totaleOre": "4h 30m"
+        },
+        {
+          "id": "log-1790363441426",
+          "sheetId": "2026-09",
+          "tipoDocumento": "PROSPETTO_STRAORDINARI",
+          "titolo": "Prospetto Straordinari SETTEMBRE 2026",
+          "nomeMese": "SETTEMBRE 2026",
+          "destinatario": "ufficio.personale.demo@sanitaservice118.example",
+          "mittente": "mario.rossi.demo@pec.example",
+          "dataInvio": "2026-09-25T19:10:41.426Z",
+          "esito": "SIMULATO",
+          "dettagli": "Ambiente Dimostrativo: invio PEC reale bloccato per sicurezza. Documento generato e archiviato in simulazione.",
+          "totaleOre": "4h 30m"
+        },
+        {
+          "id": "log-1790363398484",
+          "sheetId": "2026-09",
+          "tipoDocumento": "PROSPETTO_STRAORDINARI",
+          "titolo": "Prospetto Straordinari SETTEMBRE 2026",
+          "nomeMese": "SETTEMBRE 2026",
+          "destinatario": "ufficio.personale.demo@sanitaservice118.example",
+          "mittente": "mario.rossi.demo@pec.example",
+          "dataInvio": "2026-09-25T19:09:58.484Z",
+          "esito": "SIMULATO",
+          "dettagli": "Ambiente Dimostrativo: invio PEC reale bloccato per sicurezza. Documento generato e archiviato in simulazione.",
+          "totaleOre": "4h 30m"
+        },
+        {
+          "id": "demo-log-1",
+          "sheetId": "2026-08",
+          "tipoDocumento": "PROSPETTO_STRAORDINARI",
+          "titolo": "Prospetto Straordinari AGOSTO 2026",
+          "nomeMese": "AGOSTO 2026",
+          "destinatario": "ufficio.personale.demo@sanitaservice118.example",
+          "mittente": "mario.rossi.demo@pec.example",
+          "dataInvio": "2026-09-01T08:30:00.000Z",
+          "esito": "SIMULATO",
+          "dettagli": "Simulazione completata in ambiente dimostrativo. Nessun invio reale.",
+          "totaleOre": "6h 00m"
+        }
+      ],
+      "overtimeCalc": {
+        "settings": {
+          "ccnl": "AIOP–ARIS, codice CNEL T011",
+          "pagaOrariaBase": 11.5616,
+          "maggiorazioneDiurnoFeriale": 20,
+          "maggiorazioneNotturnoFestivo": 30,
+          "maggiorazioneNotturnoEFestivo": 50,
+          "aliquotaTrattenuteMedia": 25,
+          "noteContrattuali": "Parametrizzazione oraria CCNL Sanità Privata AIOP-ARIS (T011)."
+        },
+        "allowanceSettings": {
+          "turnoNotturnoOrdinario": 2.74,
+          "indennitaFestivaIntera": 17.82,
+          "indennitaFestivaRidotta": 8.91,
+          "indennitaTreTurni": 4.5
+        },
+        "records": [],
+        "allowanceRecords": [],
+        "cedolinoComparisons": {}
+      },
+      "files": [
+        {
+          "id": "sig-1790585434279-2cfc11fa65ef",
+          "matricola": "DEMO-001",
+          "azienda": "Sanitaservice ASL TA s.r.l. Unipersonale",
+          "servizio": "S.E.T. 118 Taranto",
+          "nomeOriginale": "mia_firma.png",
+          "nomeFileDisco": "firma_DEMO-001_2cfc11fa65ef.png",
+          "subPath": "signatures/firma_DEMO-001_2cfc11fa65ef.png",
+          "mimeType": "image/png",
+          "sizeBytes": 75,
+          "sha256Hash": "2cfc11fa65effed044baf9bc67a48b6a01673693439506fa8abe18a529c87cbe",
+          "categoria": "FIRMA_DIGITALE",
+          "descrizione": "Firma originale registrata e associata al dipendente matricola DEMO-001",
+          "createdAt": "2026-09-28T08:50:34.215Z",
+          "updatedAt": "2026-09-28T08:50:34.215Z",
+          "deletedAt": null,
+          "trashExpiresAt": null,
+          "version": 1
+        },
+        {
+          "id": "sig-1790514651646-431ced6916a2",
+          "matricola": "DEMO-001",
+          "azienda": "Sanitaservice ASL TA s.r.l. Unipersonale",
+          "servizio": "S.E.T. 118 Taranto",
+          "nomeOriginale": "firma_autentica_test.png",
+          "nomeFileDisco": "firma_DEMO-001_431ced6916a2.png",
+          "subPath": "signatures/firma_DEMO-001_431ced6916a2.png",
+          "mimeType": "image/png",
+          "sizeBytes": 68,
+          "sha256Hash": "431ced6916a2a21a156e38701afe55bbd7f88969fbbfc56d7fe099d47f265460",
+          "categoria": "FIRMA_DIGITALE",
+          "descrizione": "Firma originale registrata e associata al dipendente matricola DEMO-001",
+          "createdAt": "2026-09-27T13:10:51.640Z",
+          "updatedAt": "2026-09-27T13:10:51.640Z",
+          "deletedAt": null,
+          "trashExpiresAt": null,
+          "version": 1
+        },
+        {
+          "id": "file-1790364379347-b7486e7c",
+          "matricola": "DEMO-001",
+          "azienda": "Sanitaservice ASL TA s.r.l. Unipersonale",
+          "servizio": "S.E.T. 118 Taranto",
+          "nomeOriginale": "Test_Prospetto.pdf",
+          "nomeFileDisco": "file-1790364379347-b7486e7c_Test_Prospetto.pdf",
+          "subPath": "documents/file-1790364379347-b7486e7c_Test_Prospetto.pdf",
+          "mimeType": "application/pdf",
+          "sizeBytes": 46,
+          "sha256Hash": "6f340c916cae0a3b2bbf4b5771177b1bd5ec8cd5b488a736b26080b2191914f0",
+          "categoria": "PROSPETTO",
+          "descrizione": "",
+          "createdAt": "2026-09-25T19:26:19.347Z",
+          "updatedAt": "2026-09-25T19:26:19.347Z",
+          "deletedAt": null,
+          "trashExpiresAt": null,
+          "version": 1
+        },
+        {
+          "id": "file-1790364323119-182257af",
+          "matricola": "DEMO-001",
+          "azienda": "Sanitaservice ASL TA s.r.l. Unipersonale",
+          "servizio": "S.E.T. 118 Taranto",
+          "nomeOriginale": "Test_Prospetto.pdf",
+          "nomeFileDisco": "file-1790364323119-182257af_Test_Prospetto.pdf",
+          "subPath": "documents/file-1790364323119-182257af_Test_Prospetto.pdf",
+          "mimeType": "application/pdf",
+          "sizeBytes": 32,
+          "sha256Hash": "efaa28f76d267f1173a54d06dc84f31aa6e09c23158a123943d6fd6df634f17f",
+          "categoria": "PROSPETTO",
+          "descrizione": "",
+          "createdAt": "2026-09-25T19:25:23.120Z",
+          "updatedAt": "2026-09-25T19:25:23.120Z",
+          "deletedAt": null,
+          "trashExpiresAt": null,
+          "version": 1
+        }
+      ],
+      "sheetVersions": {
+        "sheet-test-concurrency-101": [
+          {
+            "version": 1,
+            "savedAt": "2026-09-25T19:25:23.111Z",
+            "savedBy": "DEMO-001",
+            "sheet": {
+              "id": "sheet-test-concurrency-101",
+              "anno": 2026,
+              "mese": 10,
+              "nomeMese": "Ottobre 2026",
+              "entries": [
+                {
+                  "id": "1",
+                  "data": "2026-10-01",
+                  "minutiEffettuati": 60,
+                  "tipoDestinazione": "STRAORDINARIO"
+                }
+              ],
+              "version": 1,
+              "totaleMinutiMonteOre": 0,
+              "totaleMinutiStraordinario": 60,
+              "totaleMinutiComplessivo": 60,
+              "totaleOreMonteOreFormatted": "0h 00m",
+              "totaleOreStraordinarioFormatted": "1h 00m",
+              "totaleOreComplessivoFormatted": "1h 00m",
+              "updatedAt": "2026-09-25T19:25:23.111Z",
+              "deletedAt": null,
+              "createdAt": "2026-09-25T19:25:23.111Z"
+            }
+          }
+        ],
+        "sheet-test-uniq-1790364379336": [
+          {
+            "version": 1,
+            "savedAt": "2026-09-25T19:26:19.338Z",
+            "savedBy": "DEMO-001",
+            "sheet": {
+              "id": "sheet-test-uniq-1790364379336",
+              "anno": 2026,
+              "mese": 10,
+              "nomeMese": "Ottobre 2026",
+              "entries": [
+                {
+                  "id": "1",
+                  "data": "2026-10-01",
+                  "minutiEffettuati": 60,
+                  "tipoDestinazione": "STRAORDINARIO"
+                }
+              ],
+              "version": 1,
+              "totaleMinutiMonteOre": 0,
+              "totaleMinutiStraordinario": 60,
+              "totaleMinutiComplessivo": 60,
+              "totaleOreMonteOreFormatted": "0h 00m",
+              "totaleOreStraordinarioFormatted": "1h 00m",
+              "totaleOreComplessivoFormatted": "1h 00m",
+              "updatedAt": "2026-09-25T19:26:19.338Z",
+              "deletedAt": null,
+              "createdAt": "2026-09-25T19:26:19.338Z"
+            }
+          }
+        ],
+        "2026-09": [
+          {
+            "version": 5,
+            "savedAt": "2026-09-26T18:07:18.272Z",
+            "savedBy": "DEMO-001",
+            "sheet": {
+              "id": "2026-09",
+              "anno": 2026,
+              "mese": 9,
+              "nomeMese": "SETTEMBRE 2026",
+              "dipendente": {
+                "nome": "MARIO",
+                "cognome": "ROSSI",
+                "matricola": "DEMO-001",
+                "postazione": "Taranto Centro - Postazione 118",
+                "qualifica": "Autista Soccorritore 118",
+                "telefono": "0000000000",
+                "emailPec": "mario.rossi.demo@pec.example",
+                "coordinatoreNome": "Coordinatore Demo"
+              },
+              "entries": [
+                {
+                  "id": "demo-entry-1",
+                  "giorno": "04/09/2026",
+                  "turnoType": "MATTINA",
+                  "orarioOrdinario": "07:00 - 13:00",
+                  "orarioStraordinario": "13:00 - 15:30",
+                  "motivo": "Intervento urgente soccorso 118 con rientro prolungato (Simulazione Demo)",
+                  "tipoDestinazione": "MONTE_ORE",
+                  "minutiEffettuati": 150,
+                  "totaleOreMonteOre": "2h 30m",
+                  "totaleOreStraordinario": "0h 00m",
+                  "oreDecimali": 2.5,
+                  "firmaCoordinatore": "Coordinatore Demo",
+                  "dataCreazione": "2026-09-04T15:30:00.000Z"
+                },
+                {
+                  "id": "entry-new-118",
+                  "giorno": "26/09/2026",
+                  "turnoType": "POMERIGGIO",
+                  "orarioOrdinario": "14:00 - 20:00",
+                  "orarioStraordinario": "20:00 - 22:30",
+                  "motivo": "Soccorso 118 prolungamento emergenza",
+                  "tipoDestinazione": "STRAORDINARIO",
+                  "minutiEffettuati": 150,
+                  "totaleOreStraordinario": "2h 30m",
+                  "oreDecimali": 2.5
+                }
+              ],
+              "totaleMinutiMonteOre": 150,
+              "totaleMinutiStraordinario": 150,
+              "totaleMinutiComplessivo": 300,
+              "totaleOreMonteOreFormatted": "2h 30m",
+              "totaleOreStraordinarioFormatted": "2h 30m",
+              "totaleOreComplessivoFormatted": "5h 00m",
+              "status": "PRONTO",
+              "createdAt": "2026-09-01T08:00:00.000Z",
+              "updatedAt": "2026-09-26T18:07:18.272Z",
+              "pecInvioInfo": {
+                "dataInvio": "2026-09-25T19:10:51.468Z",
+                "destinatario": "ufficio.personale.demo@sanitaservice118.example",
+                "mittente": "mario.rossi.demo@pec.example",
+                "idMessaggio": "SIM-PEC-1790363451468-26319@sanitaservice118.local",
+                "ricevutaAccettazione": false,
+                "ricevutaConsegna": false
+              },
+              "version": 5,
+              "deletedAt": null
+            }
+          },
+          {
+            "version": 4,
+            "savedAt": "2026-09-26T18:07:11.683Z",
+            "savedBy": "DEMO-001",
+            "sheet": {
+              "id": "2026-09",
+              "anno": 2026,
+              "mese": 9,
+              "nomeMese": "SETTEMBRE 2026",
+              "dipendente": {
+                "nome": "MARIO",
+                "cognome": "ROSSI",
+                "matricola": "DEMO-001",
+                "postazione": "Taranto Centro - Postazione 118",
+                "qualifica": "Autista Soccorritore 118",
+                "telefono": "0000000000",
+                "emailPec": "mario.rossi.demo@pec.example",
+                "coordinatoreNome": "Coordinatore Demo"
+              },
+              "entries": [
+                {
+                  "id": "demo-entry-1",
+                  "giorno": "04/09/2026",
+                  "turnoType": "MATTINA",
+                  "orarioOrdinario": "07:00 - 13:00",
+                  "orarioStraordinario": "13:00 - 15:30",
+                  "motivo": "Intervento urgente soccorso 118 con rientro prolungato (Simulazione Demo)",
+                  "tipoDestinazione": "MONTE_ORE",
+                  "minutiEffettuati": 150,
+                  "totaleOreMonteOre": "2h 30m",
+                  "totaleOreStraordinario": "0h 00m",
+                  "oreDecimali": 2.5,
+                  "firmaCoordinatore": "Coordinatore Demo",
+                  "dataCreazione": "2026-09-04T15:30:00.000Z"
+                }
+              ],
+              "totaleMinutiMonteOre": 150,
+              "totaleMinutiStraordinario": 0,
+              "totaleMinutiComplessivo": 150,
+              "totaleOreMonteOreFormatted": "2h 30m",
+              "totaleOreStraordinarioFormatted": "0h 00m",
+              "totaleOreComplessivoFormatted": "2h 30m",
+              "status": "PRONTO",
+              "createdAt": "2026-09-01T08:00:00.000Z",
+              "updatedAt": "2026-09-26T18:07:11.683Z",
+              "pecInvioInfo": {
+                "dataInvio": "2026-09-25T19:10:51.468Z",
+                "destinatario": "ufficio.personale.demo@sanitaservice118.example",
+                "mittente": "mario.rossi.demo@pec.example",
+                "idMessaggio": "SIM-PEC-1790363451468-26319@sanitaservice118.local",
+                "ricevutaAccettazione": false,
+                "ricevutaConsegna": false
+              },
+              "version": 4,
+              "deletedAt": null
+            }
+          },
+          {
+            "version": 3,
+            "savedAt": "2026-09-26T18:06:50.914Z",
+            "savedBy": "DEMO-001",
+            "sheet": {
+              "id": "2026-09",
+              "anno": 2026,
+              "mese": 9,
+              "nomeMese": "SETTEMBRE 2026",
+              "dipendente": {
+                "nome": "MARIO",
+                "cognome": "ROSSI",
+                "matricola": "DEMO-001",
+                "postazione": "Taranto Centro - Postazione 118",
+                "qualifica": "Autista Soccorritore 118",
+                "telefono": "0000000000",
+                "emailPec": "mario.rossi.demo@pec.example",
+                "coordinatoreNome": "Coordinatore Demo"
+              },
+              "entries": [
+                {
+                  "id": "demo-entry-1",
+                  "giorno": "04/09/2026",
+                  "turnoType": "MATTINA",
+                  "orarioOrdinario": "07:00 - 13:00",
+                  "orarioStraordinario": "13:00 - 15:30",
+                  "motivo": "Intervento urgente soccorso 118 con rientro prolungato (Simulazione Demo)",
+                  "tipoDestinazione": "MONTE_ORE",
+                  "minutiEffettuati": 150,
+                  "totaleOreMonteOre": "2h 30m",
+                  "totaleOreStraordinario": "0h 00m",
+                  "oreDecimali": 2.5,
+                  "firmaCoordinatore": "Coordinatore Demo",
+                  "dataCreazione": "2026-09-04T15:30:00.000Z"
+                },
+                {
+                  "id": "demo-entry-2",
+                  "giorno": "11/09/2026",
+                  "turnoType": "NOTTE",
+                  "orarioOrdinario": "20:00 - 08:00",
+                  "orarioStraordinario": "08:00 - 10:00",
+                  "motivo": "Attesa cambio turno e sanificazione mezzo di soccorso (Simulazione Demo)",
+                  "tipoDestinazione": "STRAORDINARIO",
+                  "minutiEffettuati": 120,
+                  "totaleOreMonteOre": "0h 00m",
+                  "totaleOreStraordinario": "2h 00m",
+                  "oreDecimali": 2,
+                  "firmaCoordinatore": "Coordinatore Demo",
+                  "dataCreazione": "2026-09-12T10:00:00.000Z"
+                },
+                {
+                  "id": "entry-1790445298501",
+                  "giorno": "26/09/2026",
+                  "turnoType": "MATTINA",
+                  "orarioOrdinario": "08:00 - 14:00",
+                  "orarioStraordinario": "14:00 - 16:00",
+                  "motivo": "Test straordinario",
+                  "tipoDestinazione": "STRAORDINARIO",
+                  "minutiEffettuati": 120,
+                  "totaleOreStraordinario": "2h 00m",
+                  "oreDecimali": 2
+                },
+                {
+                  "id": "test-persist-1",
+                  "giorno": "26/09/2026",
+                  "turnoType": "MATTINA",
+                  "orarioOrdinario": "08:00 - 14:00",
+                  "orarioStraordinario": "14:00 - 16:30",
+                  "motivo": "Soccorso 118 codice rosso persistenza",
+                  "tipoDestinazione": "STRAORDINARIO",
+                  "minutiEffettuati": 150,
+                  "totaleOreStraordinario": "2h 30m",
+                  "oreDecimali": 2.5
+                }
+              ],
+              "totaleMinutiMonteOre": 150,
+              "totaleMinutiStraordinario": 390,
+              "totaleMinutiComplessivo": 540,
+              "totaleOreMonteOreFormatted": "2h 30m",
+              "totaleOreStraordinarioFormatted": "6h 30m",
+              "totaleOreComplessivoFormatted": "9h 00m",
+              "status": "PRONTO",
+              "createdAt": "2026-09-01T08:00:00.000Z",
+              "updatedAt": "2026-09-26T18:06:50.914Z",
+              "pecInvioInfo": {
+                "dataInvio": "2026-09-25T19:10:51.468Z",
+                "destinatario": "ufficio.personale.demo@sanitaservice118.example",
+                "mittente": "mario.rossi.demo@pec.example",
+                "idMessaggio": "SIM-PEC-1790363451468-26319@sanitaservice118.local",
+                "ricevutaAccettazione": false,
+                "ricevutaConsegna": false
+              },
+              "version": 3,
+              "deletedAt": null
+            }
+          },
+          {
+            "version": 2,
+            "savedAt": "2026-09-26T18:06:43.506Z",
+            "savedBy": "DEMO-001",
+            "sheet": {
+              "id": "2026-09",
+              "anno": 2026,
+              "mese": 9,
+              "nomeMese": "SETTEMBRE 2026",
+              "dipendente": {
+                "nome": "MARIO",
+                "cognome": "ROSSI",
+                "matricola": "DEMO-001",
+                "postazione": "Taranto Centro - Postazione 118",
+                "qualifica": "Autista Soccorritore 118",
+                "telefono": "0000000000",
+                "emailPec": "mario.rossi.demo@pec.example",
+                "coordinatoreNome": "Coordinatore Demo"
+              },
+              "entries": [
+                {
+                  "id": "demo-entry-1",
+                  "giorno": "04/09/2026",
+                  "turnoType": "MATTINA",
+                  "orarioOrdinario": "07:00 - 13:00",
+                  "orarioStraordinario": "13:00 - 15:30",
+                  "motivo": "Intervento urgente soccorso 118 con rientro prolungato (Simulazione Demo)",
+                  "tipoDestinazione": "MONTE_ORE",
+                  "minutiEffettuati": 150,
+                  "totaleOreMonteOre": "2h 30m",
+                  "totaleOreStraordinario": "0h 00m",
+                  "oreDecimali": 2.5,
+                  "firmaCoordinatore": "Coordinatore Demo",
+                  "dataCreazione": "2026-09-04T15:30:00.000Z"
+                },
+                {
+                  "id": "demo-entry-2",
+                  "giorno": "11/09/2026",
+                  "turnoType": "NOTTE",
+                  "orarioOrdinario": "20:00 - 08:00",
+                  "orarioStraordinario": "08:00 - 10:00",
+                  "motivo": "Attesa cambio turno e sanificazione mezzo di soccorso (Simulazione Demo)",
+                  "tipoDestinazione": "STRAORDINARIO",
+                  "minutiEffettuati": 120,
+                  "totaleOreMonteOre": "0h 00m",
+                  "totaleOreStraordinario": "2h 00m",
+                  "oreDecimali": 2,
+                  "firmaCoordinatore": "Coordinatore Demo",
+                  "dataCreazione": "2026-09-12T10:00:00.000Z"
+                },
+                {
+                  "id": "entry-1790445298501",
+                  "giorno": "26/09/2026",
+                  "turnoType": "MATTINA",
+                  "orarioOrdinario": "08:00 - 14:00",
+                  "orarioStraordinario": "14:00 - 16:00",
+                  "motivo": "Test straordinario",
+                  "tipoDestinazione": "STRAORDINARIO",
+                  "minutiEffettuati": 120,
+                  "totaleOreStraordinario": "2h 00m",
+                  "oreDecimali": 2
+                },
+                {
+                  "id": "test-persist-1",
+                  "giorno": "26/09/2026",
+                  "turnoType": "MATTINA",
+                  "orarioOrdinario": "08:00 - 14:00",
+                  "orarioStraordinario": "14:00 - 16:30",
+                  "motivo": "Soccorso 118 codice rosso persistenza",
+                  "tipoDestinazione": "STRAORDINARIO",
+                  "minutiEffettuati": 150,
+                  "totaleOreStraordinario": "2h 30m",
+                  "oreDecimali": 2.5
+                }
+              ],
+              "totaleMinutiMonteOre": 150,
+              "totaleMinutiStraordinario": 390,
+              "totaleMinutiComplessivo": 540,
+              "totaleOreMonteOreFormatted": "2h 30m",
+              "totaleOreStraordinarioFormatted": "6h 30m",
+              "totaleOreComplessivoFormatted": "9h 00m",
+              "status": "PRONTO",
+              "createdAt": "2026-09-01T08:00:00.000Z",
+              "updatedAt": "2026-09-26T18:06:43.506Z",
+              "pecInvioInfo": {
+                "dataInvio": "2026-09-25T19:10:51.468Z",
+                "destinatario": "ufficio.personale.demo@sanitaservice118.example",
+                "mittente": "mario.rossi.demo@pec.example",
+                "idMessaggio": "SIM-PEC-1790363451468-26319@sanitaservice118.local",
+                "ricevutaAccettazione": false,
+                "ricevutaConsegna": false
+              },
+              "version": 2,
+              "deletedAt": null
+            }
+          },
+          {
+            "version": 1,
+            "savedAt": "2026-09-26T17:54:58.503Z",
+            "savedBy": "DEMO-001",
+            "sheet": {
+              "id": "2026-09",
+              "anno": 2026,
+              "mese": 9,
+              "nomeMese": "SETTEMBRE 2026",
+              "dipendente": {
+                "nome": "MARIO",
+                "cognome": "ROSSI",
+                "matricola": "DEMO-001",
+                "postazione": "Taranto Centro - Postazione 118",
+                "qualifica": "Autista Soccorritore 118",
+                "telefono": "0000000000",
+                "emailPec": "mario.rossi.demo@pec.example",
+                "coordinatoreNome": "Coordinatore Demo"
+              },
+              "entries": [
+                {
+                  "id": "demo-entry-1",
+                  "giorno": "04/09/2026",
+                  "turnoType": "MATTINA",
+                  "orarioOrdinario": "07:00 - 13:00",
+                  "orarioStraordinario": "13:00 - 15:30",
+                  "motivo": "Intervento urgente soccorso 118 con rientro prolungato (Simulazione Demo)",
+                  "tipoDestinazione": "MONTE_ORE",
+                  "minutiEffettuati": 150,
+                  "totaleOreMonteOre": "2h 30m",
+                  "totaleOreStraordinario": "0h 00m",
+                  "oreDecimali": 2.5,
+                  "firmaCoordinatore": "Coordinatore Demo",
+                  "dataCreazione": "2026-09-04T15:30:00.000Z"
+                },
+                {
+                  "id": "demo-entry-2",
+                  "giorno": "11/09/2026",
+                  "turnoType": "NOTTE",
+                  "orarioOrdinario": "20:00 - 08:00",
+                  "orarioStraordinario": "08:00 - 10:00",
+                  "motivo": "Attesa cambio turno e sanificazione mezzo di soccorso (Simulazione Demo)",
+                  "tipoDestinazione": "STRAORDINARIO",
+                  "minutiEffettuati": 120,
+                  "totaleOreMonteOre": "0h 00m",
+                  "totaleOreStraordinario": "2h 00m",
+                  "oreDecimali": 2,
+                  "firmaCoordinatore": "Coordinatore Demo",
+                  "dataCreazione": "2026-09-12T10:00:00.000Z"
+                },
+                {
+                  "id": "entry-1790445298501",
+                  "giorno": "26/09/2026",
+                  "turnoType": "MATTINA",
+                  "orarioOrdinario": "08:00 - 14:00",
+                  "orarioStraordinario": "14:00 - 16:00",
+                  "motivo": "Test straordinario",
+                  "tipoDestinazione": "STRAORDINARIO",
+                  "minutiEffettuati": 120,
+                  "totaleOreStraordinario": "2h 00m",
+                  "oreDecimali": 2
+                }
+              ],
+              "totaleMinutiMonteOre": 150,
+              "totaleMinutiStraordinario": 240,
+              "totaleMinutiComplessivo": 390,
+              "totaleOreMonteOreFormatted": "2h 30m",
+              "totaleOreStraordinarioFormatted": "4h 00m",
+              "totaleOreComplessivoFormatted": "6h 30m",
+              "status": "PRONTO",
+              "createdAt": "2026-09-01T08:00:00.000Z",
+              "updatedAt": "2026-09-26T17:54:58.503Z",
+              "pecInvioInfo": {
+                "dataInvio": "2026-09-25T19:10:51.468Z",
+                "destinatario": "ufficio.personale.demo@sanitaservice118.example",
+                "mittente": "mario.rossi.demo@pec.example",
+                "idMessaggio": "SIM-PEC-1790363451468-26319@sanitaservice118.local",
+                "ricevutaAccettazione": false,
+                "ricevutaConsegna": false
+              },
+              "version": 1,
+              "deletedAt": null
+            }
+          },
+          {
+            "version": 1,
+            "savedAt": "2026-09-12T10:00:00.000Z",
+            "savedBy": "DEMO-001",
+            "sheet": {
+              "id": "2026-09",
+              "anno": 2026,
+              "mese": 9,
+              "nomeMese": "SETTEMBRE 2026",
+              "dipendente": {
+                "nome": "MARIO",
+                "cognome": "ROSSI",
+                "matricola": "DEMO-001",
+                "postazione": "Taranto Centro - Postazione 118",
+                "qualifica": "Autista Soccorritore 118",
+                "telefono": "0000000000",
+                "emailPec": "mario.rossi.demo@pec.example",
+                "coordinatoreNome": "Coordinatore Demo"
+              },
+              "entries": [
+                {
+                  "id": "demo-entry-1",
+                  "giorno": "04/09/2026",
+                  "turnoType": "MATTINA",
+                  "orarioOrdinario": "07:00 - 13:00",
+                  "orarioStraordinario": "13:00 - 15:30",
+                  "motivo": "Intervento urgente soccorso 118 con rientro prolungato (Simulazione Demo)",
+                  "tipoDestinazione": "MONTE_ORE",
+                  "minutiEffettuati": 150,
+                  "totaleOreMonteOre": "2h 30m",
+                  "totaleOreStraordinario": "0h 00m",
+                  "oreDecimali": 2.5,
+                  "firmaCoordinatore": "Coordinatore Demo",
+                  "dataCreazione": "2026-09-04T15:30:00.000Z"
+                },
+                {
+                  "id": "demo-entry-2",
+                  "giorno": "11/09/2026",
+                  "turnoType": "NOTTE",
+                  "orarioOrdinario": "20:00 - 08:00",
+                  "orarioStraordinario": "08:00 - 10:00",
+                  "motivo": "Attesa cambio turno e sanificazione mezzo di soccorso (Simulazione Demo)",
+                  "tipoDestinazione": "STRAORDINARIO",
+                  "minutiEffettuati": 120,
+                  "totaleOreMonteOre": "0h 00m",
+                  "totaleOreStraordinario": "2h 00m",
+                  "oreDecimali": 2,
+                  "firmaCoordinatore": "Coordinatore Demo",
+                  "dataCreazione": "2026-09-12T10:00:00.000Z"
+                }
+              ],
+              "totaleMinutiMonteOre": 150,
+              "totaleMinutiStraordinario": 120,
+              "totaleMinutiComplessivo": 270,
+              "totaleOreMonteOreFormatted": "2h 30m",
+              "totaleOreStraordinarioFormatted": "2h 00m",
+              "totaleOreComplessivoFormatted": "4h 30m",
+              "status": "PRONTO",
+              "createdAt": "2026-09-01T08:00:00.000Z",
+              "updatedAt": "2026-09-12T10:00:00.000Z",
+              "pecInvioInfo": {
+                "dataInvio": "2026-09-25T19:10:51.468Z",
+                "destinatario": "ufficio.personale.demo@sanitaservice118.example",
+                "mittente": "mario.rossi.demo@pec.example",
+                "idMessaggio": "SIM-PEC-1790363451468-26319@sanitaservice118.local",
+                "ricevutaAccettazione": false,
+                "ricevutaConsegna": false
+              }
+            }
+          }
+        ]
+      },
+      "trash": []
+    }
+  }
+}

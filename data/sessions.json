@@ -1,0 +1,110 @@
+{
+  "fad15917dadc2aa0ea015171314e7b953b40dd035f3553fec9d42eb259804202": {
+    "token": "fad15917dadc2aa0ea015171314e7b953b40dd035f3553fec9d42eb259804202",
+    "matricola": "DEMO-001",
+    "isDemo": true,
+    "role": "employee",
+    "createdAt": 1790445994681,
+    "expiresAt": 1791050794681,
+    "mustChangePassword": false
+  },
+  "0557f239ee3bd0411e293a4c3cf4fdccca844a46e1cc2000a447dde471124fce": {
+    "token": "0557f239ee3bd0411e293a4c3cf4fdccca844a46e1cc2000a447dde471124fce",
+    "matricola": "DEMO-001",
+    "isDemo": true,
+    "role": "employee",
+    "createdAt": 1790446028688,
+    "expiresAt": 1791050828688,
+    "mustChangePassword": false
+  },
+  "df8563542d9e80906cc8d431e31b1e20278c5f86045cfeeeb5d0af9b63c8cc40": {
+    "token": "df8563542d9e80906cc8d431e31b1e20278c5f86045cfeeeb5d0af9b63c8cc40",
+    "matricola": "DEMO-001",
+    "isDemo": true,
+    "role": "employee",
+    "createdAt": 1790446186115,
+    "expiresAt": 1791050986115,
+    "mustChangePassword": false
+  },
+  "8556987fc7e8bc0c832206e1f632cc48f17d0ac0f678d602bcefe19fa456f5e9": {
+    "token": "8556987fc7e8bc0c832206e1f632cc48f17d0ac0f678d602bcefe19fa456f5e9",
+    "matricola": "0000001705",
+    "isDemo": false,
+    "role": "employee",
+    "createdAt": 1790510098052,
+    "expiresAt": 1791114898052,
+    "mustChangePassword": true
+  },
+  "4bf43aa3782c7086395632c7084a4533b6bf998bd6e03e9c70338f670b97ddfe": {
+    "token": "4bf43aa3782c7086395632c7084a4533b6bf998bd6e03e9c70338f670b97ddfe",
+    "matricola": "0000001705",
+    "isDemo": false,
+    "role": "employee",
+    "createdAt": 1790510234837,
+    "expiresAt": 1791115034837,
+    "mustChangePassword": true
+  },
+  "031d9d10d5879183be42a23f8bfa71e553db592e9bd4481382f2cdbfd81d37fa": {
+    "token": "031d9d10d5879183be42a23f8bfa71e553db592e9bd4481382f2cdbfd81d37fa",
+    "matricola": "DEMO-001",
+    "isDemo": true,
+    "role": "employee",
+    "createdAt": 1790514651363,
+    "expiresAt": 1791119451363,
+    "mustChangePassword": false
+  },
+  "8c9379a00aa5568b12d1362e6089521d46aeeddae48848c7770176e479e41dbd": {
+    "token": "8c9379a00aa5568b12d1362e6089521d46aeeddae48848c7770176e479e41dbd",
+    "matricola": "0000001705",
+    "isDemo": false,
+    "role": "employee",
+    "createdAt": 1790579881955,
+    "expiresAt": 1791184681955,
+    "mustChangePassword": true
+  },
+  "8cba5520822183a33f8ded26b3f7cc599108205475a34ffb4508e3d221ffb5e6": {
+    "token": "8cba5520822183a33f8ded26b3f7cc599108205475a34ffb4508e3d221ffb5e6",
+    "matricola": "admin",
+    "isDemo": false,
+    "role": "admin",
+    "createdAt": 1790585402608,
+    "expiresAt": 1791190202608,
+    "mustChangePassword": false
+  },
+  "2acb010b975138207ec5d97053843edbd31524f49b6562b5a6cbadff710039ed": {
+    "token": "2acb010b975138207ec5d97053843edbd31524f49b6562b5a6cbadff710039ed",
+    "matricola": "DEMO-001",
+    "isDemo": true,
+    "role": "employee",
+    "createdAt": 1790585426354,
+    "expiresAt": 1791190226354,
+    "mustChangePassword": false
+  },
+  "a4b14b57469a54324a37d34316c666c55ee25f4bb6fe03b674e50ebb96860490": {
+    "token": "a4b14b57469a54324a37d34316c666c55ee25f4bb6fe03b674e50ebb96860490",
+    "matricola": "admin",
+    "isDemo": false,
+    "role": "admin",
+    "createdAt": 1790585471719,
+    "expiresAt": 1791190271719,
+    "mustChangePassword": false
+  },
+  "6ddbfe1ebc7399e719316b73e24e9dd29b31d6b688a7d8d83645b4529a8242ea": {
+    "token": "6ddbfe1ebc7399e719316b73e24e9dd29b31d6b688a7d8d83645b4529a8242ea",
+    "matricola": "admin",
+    "isDemo": false,
+    "role": "admin",
+    "createdAt": 1790585482236,
+    "expiresAt": 1791190282236,
+    "mustChangePassword": false
+  },
+  "7c60c727341626defc5c27cb2721b16e552964b580927cd6da6900d70ca1d7c9": {
+    "token": "7c60c727341626defc5c27cb2721b16e552964b580927cd6da6900d70ca1d7c9",
+    "matricola": "admin",
+    "isDemo": false,
+    "role": "admin",
+    "createdAt": 1790585492092,
+    "expiresAt": 1791190292092,
+    "mustChangePassword": false
+  }
+}

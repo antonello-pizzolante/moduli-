@@ -1,0 +1,8 @@
+{
+  "name": "Sanitaservice 118 - Straordinari & Invio PEC",
+  "description": "Gestione autonoma straordinari e monte ore per il personale S.E.T. 118 Sanitaservice ASL TA con trascrizione su modello originale, calcolo automatico turni, archivio cloud e invio PEC programmato entro il giorno 1.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
